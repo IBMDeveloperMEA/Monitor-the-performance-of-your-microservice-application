@@ -17,6 +17,8 @@ In this code pattern, we will integrate [Instana](https://www.instana.com/) with
 2. The Instana code in each service of the Bee Travels application sends data about each respective service to the Instana Agent in the OpenShift cluster (one Instana Agent per cluster node).
 3. The Instana Agent sends that data to your account on Instana where you can analyze/monitor the Bee Travels microservices through the Instana dashboard.
 
+Before we begin, you need an IBM Cloud account to follow along. Create one or Login here: [IBM Cloud](https://ibm.biz/Bdfus2)
+
 # Steps
 
 1. [Prerequisites](#1-prerequisites)
@@ -27,7 +29,7 @@ In this code pattern, we will integrate [Instana](https://www.instana.com/) with
 
 ## 1. Prerequisites
 
-* [IBM Cloud account](https://cloud.ibm.com/registration)
+* [IBM Cloud account](https://ibm.biz/Bdfus2)
 * [OpenShift CLI (oc)](https://cloud.ibm.com/docs/openshift?topic=openshift-openshift-cli#cli_oc)
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [NodeJS](https://nodejs.org/en/download/)
